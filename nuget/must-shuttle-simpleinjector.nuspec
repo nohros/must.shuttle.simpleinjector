@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>must.shuttle.simpleinjector</id>
+    <version>0.0.3</version>
+    <title>Must - Shuttle with SimpleInjector</title>
+    <authors>Nohros Inc</authors>
+    <owners>Nohros Inc</owners>
+    <projectUrl>http://code.google.com/p/nohros-must</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A implementation of Shuttle interfaces for Simple Injector.
+    </description>
+    <summary>
+      The Simple Injector implementation of the shuttle interfaces for the nohros must framework.
+    </summary>
+    <copyright>Nohros Inc</copyright>
+    <language>en-US</language>
+    <tags>csharp framework nohros security metrics must influxdb</tags>
+    <dependencies>
+      <dependency id="Shuttle.Esb" version="[7.0.0,8.0.0)" />
+      <dependency id="SimpleInjector" version="[3.0.0,4.0.0)" />
+      <dependency id="must.common" version="2.2.0" />
+      </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\release\nohros.shuttle.simpleinjector.dll" target="lib\nohros.shuttle.simpleinjector.dll" />
+    <file src="..\bin\release\nohros.shuttle.simpleinjector.pdb" target="lib\nohros.shuttle.simpleinjector.pdb" />
+  </files>
+</package>
